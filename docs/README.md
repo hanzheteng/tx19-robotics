@@ -1,4 +1,4 @@
-##Change the file /etc/apt/sources.list to the following content
+## Change the file /etc/apt/sources.list to the following content
 
 deb http://mirrors.163.com/ubuntu/ bionic main restricted universe multiverse 
 deb http://mirrors.163.com/ubuntu/ bionic-security main restricted universe multiverse 
