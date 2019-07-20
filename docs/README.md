@@ -14,6 +14,10 @@ or
 
 sudo nano /etc/apt/sources_cn.list
 
+or
+
+**sudo gedit /etc/apt/sources_cn.list**
+
 choose whatever editor you want
 ```
 
