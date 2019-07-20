@@ -42,5 +42,5 @@ deb-src http://mirrors.163.com/ubuntu/ bionic-backports main restricted universe
 ## Change the source file /etc/apt/sources.list into the modified file
 
 ``` 
-sudo cp /etc/apt/sources_cn.list /etc/apt_sources.list
+sudo cp /etc/apt/sources_cn.list /etc/apt/sources.list
 ```
