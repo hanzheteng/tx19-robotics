@@ -74,7 +74,7 @@ Open TurtleSim
 
 Run the code
 
-.. code: bash
+.. code:: bash
 
     cd ~/catkin_ws/src/techx2019/scripts/
     python talker.py
