@@ -12,7 +12,7 @@ Now use the catkin_create_pkg script to create a new package called 'beginner_tu
 
 .. code:: bash
 
-    catkin_create_pkg beginner_tutorials std_msgs rospy
+    catkin_create_pkg tech2019 std_msgs rospy
 
 Building a catkin workspace and sourcing the setup file
 -------------------------------------------------------

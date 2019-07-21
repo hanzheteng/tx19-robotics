@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'TechX2019 Robotics Course documentation!'
+project = 'TechX2019 Robotics Course Documentation'
 copyright = '2019, techx2019'
-author = 'techx2019'
+author = 'TechX2019'
 
 
 # -- General configuration ---------------------------------------------------
