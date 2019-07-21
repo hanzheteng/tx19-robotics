@@ -88,10 +88,17 @@ Before you can use ROS, you will need to initialize rosdep.
 Environment Setup
 -----------------
 
-.. code:: bash
+* **Ubuntu 18.04:**
+    .. code:: bash
 
-    echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
-    source ~/.bashrc
+        echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+        source ~/.bashrc
+
+* **Ubuntu 16.04:**
+    .. code:: bash
+
+        echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+        source ~/.bashrc
 
 Install More Dependencies
 -------------------------
@@ -100,4 +107,3 @@ Install More Dependencies
 
     sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
 
-    
