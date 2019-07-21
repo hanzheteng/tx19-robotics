@@ -26,6 +26,6 @@ Welcome to TechX 2019 Robotics Documentation!
 .. toctree::
    :maxdepth: 3
    :hidden:
-   :caption: Writing a Simple Publisher and Subscriber 
+   :caption: Publisher and Subscriber 
 
    pubsub
