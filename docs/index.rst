@@ -1,20 +1,24 @@
-.. TechX 2019 Robotics documentation master file, created by
-   sphinx-quickstart on Sun Jul  7 23:47:04 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to TechX 2019 Robotics Course!
-===============================================
+Welcome to TechX 2019 Robotics Documentation!
+=============================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :hidden:
+   :caption: Install ROS
+
+   install
 
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Create ROS Package
 
-Indices and tables
-==================
+   createpackage
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Create a Workspace
+
+   workspace

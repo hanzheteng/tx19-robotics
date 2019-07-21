@@ -17,12 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'TechX 2019 Robotics'
-copyright = '2019, Hanzhe Teng'
-author = 'Hanzhe Teng'
-
-# The full version, including alpha/beta/rc tags
-release = '1.0'
+project = 'TechX2019 Robotics Course documentation!'
+copyright = '2019, techx2019'
+author = 'techx2019'
 
 
 # -- General configuration ---------------------------------------------------
@@ -47,13 +44,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
+#html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
-# Switch master doc from `contents` to `index`
-master_doc = 'index'
-
