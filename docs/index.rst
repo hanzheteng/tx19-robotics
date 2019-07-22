@@ -2,50 +2,29 @@ Welcome to TechX 2019 Robotics Documentation!
 =============================================
 
 .. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Install ROS
+    :maxdepth: 1
+    :hidden:
+    :caption: ROS Tutorial
 
-   install
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Create a Workspace
-
-   workspace
-
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Create ROS Package
-
-   createpackage
-
-.. toctree::
-   :maxdepth: 3
-   :hidden:
-   :caption: Publisher and Subscriber 
-
-   pubsub
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: ROS Filesystem
-
-   filesystem
+    install
+    workspace
+    createpackage
+    pubsub
+    filesystem
+    launch
+   
+Useful Links:
+-------------
 
 Piazza
-------
+~~~~~~
 
 Piazza_.
 
 .. _Piazza: https://piazza.com/techx_summit/summer2019/robotics101/
 
 ROS Wiki
---------
+~~~~~~~~
 
 ROSWiki_.
 
