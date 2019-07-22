@@ -39,3 +39,41 @@ Example:
 .. code:: bash
 
     roscd techx2019
+
+**Note: roscd will access the directory output by the rospack find command**
+
+Using rosls
+-----------
+
+It allows you to ls directly in a package by name rather than by absolute path.
+
+同roscd和cd的关系
+
+Usage:
+
+.. code:: bash
+
+    rosls [locationname[/subdir]]
+
+Example:
+
+.. code:: bash
+
+    rosls techx2019
+
+**Tab Completion(Tab键自动补全)**
+-------------------------------------------
+
+Example:
+
+.. code:: bash
+
+    roscd tec
+
+Press the Tab right now, you will automatically get the command
+
+.. code:: bash
+
+    roscd techx2019
+
+
