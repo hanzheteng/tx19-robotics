@@ -26,7 +26,14 @@ Create a launch directory:
 The Launch File
 ---------------
 
-Now let's create a launch file called turtlemimic.launch and paste the following:
+Now let's create a launch file called turtlemimic.launch
+
+.. code:: bash
+
+    touch turtlemimic.launch
+    gedit turtlemimic.launch
+
+Paste the following:
 
 .. code:: xml
 

@@ -41,8 +41,8 @@ Copy the following Python Code into talker.py:
         rate = rospy.Rate(10) # 10hz
         while not rospy.is_shutdown():
             msg = Twist()
-        msg.linear.x = 1.0
-        msg.angular.z = 1.0
+            msg.linear.x = 1.0
+            msg.angular.z = 1.0
             pub.publish(msg)
             rate.sleep()
 
@@ -87,9 +87,13 @@ Run the code
     cd ~/catkin_ws/src/techx2019/scripts/
     python talker.py
 
-**You should keep every programs running and move on!! Open a Terminal**
+**You should keep every programs running and move on!!**
 
-**到这里，一定不要暂停任何代码，之后会用到！！打开一个新的命令行**
+**到这里，一定不要暂停任何代码，之后会用到！！**
+
+**Open a Terminal!!**
+
+**打开一个新的命令行！！**
 
 Writing the Subscriber Node
 ---------------------------
