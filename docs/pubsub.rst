@@ -87,9 +87,9 @@ Run the code
     cd ~/catkin_ws/src/techx2019/scripts/
     python talker.py
 
-**You should keep every programs running and move on!!**
+**You should keep every programs running and move on!! Open a Terminal**
 
-**到这里，一定不要暂停任何代码，之后会用到！！**
+**到这里，一定不要暂停任何代码，之后会用到！！打开一个新的命令行**
 
 Writing the Subscriber Node
 ---------------------------
@@ -148,4 +148,5 @@ Save and run the code:
 
 .. code:: bash
 
+    roscd techx2019/scripts
     python listener.py
