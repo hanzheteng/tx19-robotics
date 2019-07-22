@@ -29,3 +29,24 @@ Welcome to TechX 2019 Robotics Documentation!
    :caption: Publisher and Subscriber 
 
    pubsub
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: ROS Filesystem
+
+   filesystem
+
+Piazza
+------
+
+Piazza_.
+
+.. _Piazza: https://piazza.com/techx_summit/summer2019/robotics101/
+
+ROS Wiki
+--------
+
+ROSWiki_.
+
+.. _ROSWiki: http://wiki.ros.org/ROS/Tutorials
