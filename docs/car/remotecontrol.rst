@@ -10,9 +10,6 @@ Turn on the robot
 
 **Note: make sure your gamepad's control mode's light is off and the mode is in X**
 
-Using SSH to connect Racecar
-----------------------------
-
 Connect the TianRacer WiFi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -38,14 +35,15 @@ Open a terminal
 
 .. code:: bash
 
-    ssh tianbot@192.168.50.10X
-    where X is your team number
+    ssh -X tianbot@192.168.50.10X
+
+**where X is your team number**
 
 For example, if your team number is 9, you should
 
 .. code:: bash
 
-    ssh tianbot@192.168.50.109
+    ssh -X tianbot@192.168.50.109
 
 Type in the password: **ros**
 
@@ -54,6 +52,10 @@ hidden in linux terminal**
 
 Open Racecar Bringup launch file
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Run the following code **ONLY IF** you have logged into your Racecar
+
+**Don't** run the code on your laptop
 
 .. code:: bash
 

@@ -39,7 +39,7 @@ rostopic echo topicname returns the messages being sent from the ROS master abou
 
 .. code:: bash
 
-    rostopic echo
+    rostopic echo <topic name>
 
 nmap
 ----

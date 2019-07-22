@@ -8,9 +8,10 @@ Check your Hosts file
 
     cat /etc/hosts
 
-The returned result should be something like this:
+The returned result should be **something like this**:
 
 .. code:: bash
+
     127.0.0.1	localhost
     127.0.1.1	chris-Inspiron-7373
 
@@ -30,7 +31,7 @@ open the file editor
 
     sudo gedit /etc/hosts
 
-paste the following code to the end of the file:
+Copy and paste the following code to the end of the file:
 
 .. code:: bash
 
@@ -45,7 +46,8 @@ paste the following code to the end of the file:
     192.168.50.109   tianbot-09
     192.168.50.110   tianbot-10
 
-make sure that your file is looking something like this right now:
+make sure that your file is looking **something like this** right now:
+**Note: Don't copy paste the following code.**
 
 .. code:: bash
 
