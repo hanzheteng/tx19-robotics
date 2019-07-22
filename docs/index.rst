@@ -21,6 +21,7 @@ Welcome to TechX 2019 Robotics Documentation!
     :caption: Racecar
 
     car/remotecontrol
+    car/rviz_MIT_racecar
 
 .. toctree::
     :maxdepth: 4
