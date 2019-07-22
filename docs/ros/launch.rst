@@ -39,13 +39,18 @@ Paste the following:
 
     <launch>
 
-    <group ns="turtlesim1">
-        <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
-    </group>
+    <group ns="turtlesim">
 
-    <group ns="turtlesim2">
-        <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
+        <node pkg="turtlesim" name="turtle1" type="turtlesim_node"/>
+        <node pkg="turtlesim" name="turtle2" type="turtlesim_node"/>
+        <node pkg="techx2019" name="talker" type="talker.py" output="screen"/>
+
     </group>
 
     </launch>
 
+Run the launch file:
+
+.. code:: bash
+
+    roslaunch techx2019 turtlemimic.launch

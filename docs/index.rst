@@ -2,17 +2,33 @@ Welcome to TechX 2019 Robotics Documentation!
 =============================================
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 4
     :hidden:
     :caption: ROS Tutorial
 
-    install
-    workspace
-    createpackage
-    pubsub
-    filesystem
-    launch
+    ros/install
+    ros/workspace
+    ros/createpackage
+    ros/pubsub
+    ros/filesystem
+    ros/launch
+    ros/runasquare
+    ros/debug
    
+.. toctree::
+    :maxdepth: 4
+    :hidden:
+    :caption: Racecar
+
+    car/remotecontrol
+
+.. toctree::
+    :maxdepth: 4
+    :hidden:
+    :caption: Tools
+
+    tools/hosts
+
 Useful Links:
 -------------
 
