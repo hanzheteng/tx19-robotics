@@ -27,6 +27,7 @@ Welcome to TechX 2019 Robotics Documentation!
     :caption: Turtlebot
 
     turtlebot/setup
+    turtlebot/algorithm
 
 .. toctree::
     :maxdepth: 4

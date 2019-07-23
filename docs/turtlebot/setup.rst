@@ -55,3 +55,5 @@ If everything is set up correctly, you should get a opened simulator with a smal
 .. code:: bash
 
     roslaunch turtlebot3_gazebo turtlebot3_world.Launch
+
+You can use **Ctrl+C** to exit the program

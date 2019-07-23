@@ -1,6 +1,11 @@
 Debugging Tools
 ================
 
+env | grep ROS
+---------------
+
+check all the ROS environmental variables
+
 rqt
 ---
 
