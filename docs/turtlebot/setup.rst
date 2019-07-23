@@ -47,6 +47,18 @@ For general purpose, we choose to use "burger" model.
     echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
     source ~/.bashrc
 
+Close 3D acceleration 
+---------------------
+
+if you are using **Ubuntu in Virtual Machine**
+
+You **dont't** have to do so if you are using native Ubuntu
+
+.. code:: bash
+
+    echo "export SVGA_VGPU10=0" >> ~/.bashrc
+    source ～/.bashrc
+
 Test Launch
 ------------
 
@@ -54,6 +66,6 @@ If everything is set up correctly, you should get a opened simulator with a smal
 
 .. code:: bash
 
-    roslaunch turtlebot3_gazebo turtlebot3_world.Launch
+    roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 You can use **Ctrl+C** to exit the program

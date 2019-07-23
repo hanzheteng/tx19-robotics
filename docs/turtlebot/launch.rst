@@ -7,7 +7,7 @@ First, get into the package launch directory
 
 .. code:: bash
 
-    roscd turtlebot3_gazebo/launch/
+    roscd techx2019/launch/
 
 Create a new blank launch file called **turtlebot3_waypoint.launch** and edit it
 
@@ -38,7 +38,7 @@ Copy and paste the following launch file code:
     <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />
 
     <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf"  args="-urdf -model turtlebot3_$(arg model) -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -param robot_description" />
-    <node pkg="turtlebot3_gazebo" name="waypoint" type="waypoint.py" output="screen"/>
+    <node pkg="techx2019" name="waypoint" type="waypoint.py" output="screen"/>
     </launch>
 
 Save and close the file

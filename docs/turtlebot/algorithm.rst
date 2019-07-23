@@ -1,18 +1,11 @@
 Writing Waypoint Nevigation Algorithm
 ======================================
 
-Enter **turtlebot3_gazebo** package
+Enter **techx2019** package scripts directory
 
 .. code:: bash
 
-    roscd turtlebot3_gazebo
-
-Create a directory called **scripts** and enter it
-
-.. code:: bash
-
-    mkdir scripts
-    cd scripts
+    roscd techx2019/scripts
 
 Create a blank python file and edit it
 
@@ -26,8 +19,6 @@ Paste the following code into it:
 .. code:: python
 
     #!/usr/bin/env python
-    # EE144 Lab6 waypoint mission
-    # May 22, 2018 by Hanzhe Teng, Keran Ye, Tianxiang Huang
 
     import rospy
     import tf
@@ -37,9 +28,6 @@ Paste the following code into it:
     from nav_msgs.msg import Odometry
     from math import pi, sqrt, atan2
 
-    # We ignore the first (0,0) point since we've already been here.
-    # Actually the first (0,0) point will lead to some errors like devide by 0,
-    # and singular matrix for transform that does not have its inverse matrix.
     WAYPOINTS = [[0.5,0],[1,0],[1,0],[1,0.5],[1,1],[1,1],[0.5,1],[0,1],[0,1],[0,0.5],[0,0]]
 
     class PID:
@@ -207,7 +195,13 @@ To run the waypoint nevigation algorithm, first **open a terminal** and run the 
 
 .. code:: bash
 
-    roslaunch turtlebot3_gazebo turtlebot3_world.Launch
+    roslaunch turtlebot3_gazebo turtlebot3_world.launch
+
+**IMPORTANT:** make the python file executable
+
+.. code:: bash
+
+    chmod +x waypoint.py
 
 **Open another terminal**, run the python code
 
