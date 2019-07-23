@@ -25,6 +25,13 @@ Welcome to TechX 2019 Robotics Documentation!
 .. toctree::
     :maxdepth: 4
     :hidden:
+    :caption: Turtlebot
+
+    turtlebot/setup
+    
+.. toctree::
+    :maxdepth: 4
+    :hidden:
     :caption: Tools
 
     tools/hosts
