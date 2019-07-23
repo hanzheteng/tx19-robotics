@@ -12,7 +12,6 @@ Welcome to TechX 2019 Robotics Documentation!
     ros/pubsub
     ros/filesystem
     ros/launch
-    ros/runasquare
     ros/debug
    
 .. toctree::
@@ -28,7 +27,7 @@ Welcome to TechX 2019 Robotics Documentation!
     :caption: Turtlebot
 
     turtlebot/setup
-    
+
 .. toctree::
     :maxdepth: 4
     :hidden:
