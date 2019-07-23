@@ -70,8 +70,8 @@ For this part, simply connect the usb receiver of your gamepad to your computer.
 
 The rviz environment with the scanning car should look like this:
 
-.. image:: ../pics/rviz_MIT_racecar.png
-   :width:1200
+.. image:: pics/rviz_MIT_racecar.png
+   :width: 1200
 
 Controlling the car using publisher and subscriber
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
