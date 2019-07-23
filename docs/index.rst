@@ -29,6 +29,7 @@ Welcome to TechX 2019 Robotics Documentation!
     turtlebot/setup
     turtlebot/algorithm
     turtlebot/launch
+    turtlebot/slam
 
 .. toctree::
     :maxdepth: 4
