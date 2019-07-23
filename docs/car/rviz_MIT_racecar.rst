@@ -66,7 +66,7 @@ In the left panel under the newly added LaserScan section, change the size to 0.
 Controlling the car using gamepad
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For this part, simply connect the usb receiver of your gamepad to your computer. **Switch the mode of the gamepad to X**, then you should be able to control the car using two joysticks. 
+For this part, simply connect the usb receiver of your gamepad to your computer. **Switch the mode of the gamepad to D**, then you should be able to control the car using two joysticks. 
 
 The rviz environment with the scanning car should look like this:
 
