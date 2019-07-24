@@ -1,4 +1,4 @@
-Using gamepad to control Racecar
+Use gamepad to control Racecar
 ========================================
 
 Turn on the robot

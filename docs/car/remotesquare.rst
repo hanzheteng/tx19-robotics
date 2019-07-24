@@ -1,4 +1,4 @@
-Remote Control Racecar
+Use script to control Racecar
 =======================
 
 enter your techx2019 package's script folder
