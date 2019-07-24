@@ -28,7 +28,7 @@ Please choose only one from the following installation method according to your 
     cd ~/catkin_ws/src
     git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
     git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
-    git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulation.git
+    git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
     git clone https://github.com/ROBOTIS-GIT/turtlebot3_autorace.git
     cd ..
     rosdep install --from-paths src -i -y
