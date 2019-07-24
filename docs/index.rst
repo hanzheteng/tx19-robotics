@@ -21,6 +21,7 @@ Welcome to TechX 2019 Robotics Documentation!
 
     car/remotecontrol
     car/rviz_MIT_racecar
+    car/remotesquare
 
 .. toctree::
     :maxdepth: 4
