@@ -26,6 +26,13 @@ Welcome to TechX 2019 Robotics Documentation!
 .. toctree::
     :maxdepth: 4
     :hidden:
+    :caption: Opencv
+
+    car_cv/tracking_on_local_computer
+
+.. toctree::
+    :maxdepth: 4
+    :hidden:
     :caption: Turtlebot
 
     turtlebot/setup
