@@ -63,3 +63,9 @@ Run the mapping launch file
 .. code:: bash
 
     roslaunch racecar_slam racecar_laser_only_cartographer.launch
+
+Save the map
+
+.. code:: bash
+
+    rosrun map_server map_saver --occ 51 --free 49 -f test_carto_map
