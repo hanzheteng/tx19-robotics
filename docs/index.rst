@@ -20,8 +20,9 @@ Welcome to TechX 2019 Robotics Documentation!
     :caption: Racecar
 
     car/remotecontrol
-    car/rviz_MIT_racecar
     car/remotesquare
+    car/mapping
+    car/rviz_MIT_racecar
 
 .. toctree::
     :maxdepth: 4
@@ -30,6 +31,7 @@ Welcome to TechX 2019 Robotics Documentation!
 
     car_cv/tracking_on_local_computer
     car_cv/usb_cam_on_car
+
 .. toctree::
     :maxdepth: 4
     :hidden:
