@@ -1,6 +1,8 @@
 Mapping
 ========
 
+**The following steps are running on ROS2GO platform**
+
 Open a terminal, connect with your car
 
 First, bring up everything on your car
@@ -58,13 +60,18 @@ Make the package
     cd ~/catkin_ws
     catkin_make
 
-Run the mapping launch file
+Run the mapping launch file to start mapping
 
 .. code:: bash
 
     roslaunch racecar_slam racecar_laser_only_cartographer.launch
 
-Save the map
+You may see something like this
+
+.. image:: pics/slam.png
+   :width: 1200
+
+Tp save the map, open a new terminal and run
 
 .. code:: bash
 
