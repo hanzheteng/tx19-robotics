@@ -10,11 +10,11 @@ First we need to setup opencv environment in ubuntu.
 
 **If you are running ubuntu 18.04, then do the following**
 
-First we install pip3:
+First we install pip:
 
 .. code:: bash
 
-    sudo apt-get install python3-pip
+    sudo apt-get install python-pip
 
 then install libopencv-dev:
 
@@ -26,7 +26,7 @@ then install opencv-python as follows:
 
 .. code:: bash
 
-    sudo pip3 install opencv-python
+    sudo pip install opencv-python
 
 If you have reached this point, you can verify your installation in terminal and check the version as follows:
 
