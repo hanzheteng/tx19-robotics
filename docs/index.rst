@@ -29,7 +29,7 @@ Welcome to TechX 2019 Robotics Documentation!
     :caption: Opencv
 
     car_cv/tracking_on_local_computer
-
+    car_cv/usb_cam_on_car
 .. toctree::
     :maxdepth: 4
     :hidden:
