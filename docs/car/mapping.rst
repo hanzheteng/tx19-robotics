@@ -9,7 +9,7 @@ First, bring up everything on your car
 
     roslaunch racecar_bringup racecar_bringup.launch
 
-Then, Open another terminal
+Then, Open another terminal and SSH into your car
 
 
 **On your car**, config network variables
@@ -19,7 +19,7 @@ Then, Open another terminal
     export ROS_MASTER_URI=http://yourcarip:11311
     export ROS_IP=yourcarip
 
-Find your computer's ip
+On your computer, find your computer's ip
 
 .. code:: bash
 
@@ -51,8 +51,15 @@ Update to the latest SLAM package
 
     git pull origin master
 
+Make the package
+
+.. code:: bash
+    
+    cd ~/catkin_ws
+    catkin_make
+
 Run the mapping launch file
 
 .. code:: bash
 
-    roslaunch racecar_slam racecar_racecar_laser_only_cartographer.launch
+    roslaunch racecar_slam racecar_laser_only_cartographer.launch
