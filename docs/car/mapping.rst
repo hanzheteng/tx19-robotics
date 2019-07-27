@@ -3,65 +3,43 @@ Mapping
 
 **The following steps are running on ROS2GO platform**
 
-Open a terminal, connect with your car.
+Open a terminal, connect to your car.
 
-First, bring up everything on your car
+First, set up ROS environment on both your car and your computer.
 
-.. code:: bash
-
-    roslaunch racecar_bringup racecar_bringup.launch
-
-Then, Open another terminal and SSH into your car
-
-**On your car**, config network variables by modifying your ~/.bashrc file:
+**On your computer**, config network variables by modifying your ~/.bashrc file:
 
 .. code:: bash
 
-    sudo gedit ~/.bashrc
+    gedit ~/.bashrc
 
-in the poped up text editor, add these two lines to the bottom of the file.
+in the text editor, add these two lines to the bottom of the file.
 
 .. code:: bash
 
     ROS_MASTER_URI=http://yourcarip:11311
-    ROS_IP=yourcarip
+    ROS_IP=`hostname -I`
 
 where "yourcarip" is the IP address of your car (192.168.50.10*). 
 
-Save the file and type in terminal:
+
+**On your car** (first ssh -X to your car), config network variables by the same steps.
 
 .. code:: bash
 
-    source ~/.bashrc
+    gedit ~/.bashrc
 
-Open another terminal, then open a terminal and type:
-
-.. code:: bash
-
-    ifconfig
-
-then find the IP address of your computer in the printed message. It should look like 192.168.50.***.
-
-Then config network variables **on your computer**
+in the text editor, add these two lines to the bottom of the file.
 
 .. code:: bash
 
-    sudo gedit ~/.bashrc
+    ROS_MASTER_URI=http://yourcarip:11311
+    ROS_IP=`hostname -I`
 
-Then add these two lines to the bottom of the file:
+where "yourcarip" is the IP address of your car (192.168.50.10*). 
 
-.. code:: bash
 
-    export ROS_MASTER_URI=http://yourcarip:11311
-    export ROS_IP=yourcomputerip
-
-save the file and type in terminal:
-
-.. code:: bash
-
-    source ~/.bashrc
-
-You can use the following code to check if your environment variables have been set correcly
+You can use the following code to check if your environment variables have been set correctly
 
 .. code:: bash
 
@@ -87,13 +65,19 @@ Make the package
     cd ~/catkin_ws
     catkin_make
 
-Run the mapping launch file to start mapping
+OK, now open a new terminal and ssh to your car. Then bring up everything on your car
+
+.. code:: bash
+
+    roslaunch racecar_bringup racecar_bringup.launch
+
+Then go back to your own computer and open a new terminal. Run the mapping launch file to start mapping
 
 .. code:: bash
 
     roslaunch racecar_slam racecar_laser_only_cartographer.launch
 
-You may see something like this
+You should be able to see something like this
 
 .. image:: pics/slam.png
    :width: 1200
