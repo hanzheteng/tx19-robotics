@@ -24,6 +24,7 @@ Welcome to TechX 2019 Robotics Documentation!
     car/setup_cartographer
     car/mapping
     car/rviz_MIT_racecar
+    car/navi
 
 .. toctree::
     :maxdepth: 4
