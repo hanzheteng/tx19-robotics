@@ -65,7 +65,9 @@ Make the package
     cd ~/catkin_ws
     catkin_make
 
-OK, now open a new terminal and ssh to your car. Then bring up everything on your car
+OK, **now close all terminals and open new terminals to do the following steps.**
+
+Then ssh to your car and bring up everything on your car
 
 .. code:: bash
 
