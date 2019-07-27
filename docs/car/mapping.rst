@@ -3,38 +3,43 @@ Mapping
 
 **The following steps are running on ROS2GO platform**
 
-Open a terminal, connect with your car
+Open a terminal, connect to your car.
 
-First, bring up everything on your car
+First, set up ROS environment on both your car and your computer.
 
-.. code:: bash
-
-    roslaunch racecar_bringup racecar_bringup.launch
-
-Then, Open another terminal and SSH into your car
-
-
-**On your car**, config network variables
+**On your computer**, config network variables by modifying your ~/.bashrc file:
 
 .. code:: bash
 
-    export ROS_MASTER_URI=http://yourcarip:11311
-    export ROS_IP=yourcarip
+    gedit ~/.bashrc
 
-On your computer, find your computer's ip
-
-.. code:: bash
-
-    ifconfig
-
-Open another terminal, config network variables **on your computer**
+in the text editor, add these two lines to the bottom of the file.
 
 .. code:: bash
 
-    export ROS_MASTER_URI=http://yourcarip:11311
-    export ROS_IP=yourcomputerip
+    ROS_MASTER_URI=http://yourcarip:11311
+    ROS_IP=`hostname -I`
 
-You can use the following code to check if your environment variables have been set correcly
+where "yourcarip" is the IP address of your car (192.168.50.10*). 
+
+
+**On your car** (first ssh -X to your car), config network variables by the same steps.
+
+.. code:: bash
+
+    gedit ~/.bashrc
+
+in the text editor, add these two lines to the bottom of the file.
+
+.. code:: bash
+
+    ROS_MASTER_URI=http://yourcarip:11311
+    ROS_IP=`hostname -I`
+
+where "yourcarip" is the IP address of your car (192.168.50.10*). 
+
+
+You can use the following code to check if your environment variables have been set correctly
 
 .. code:: bash
 
@@ -60,13 +65,21 @@ Make the package
     cd ~/catkin_ws
     catkin_make
 
-Run the mapping launch file to start mapping
+OK, **now close all terminals and open new terminals to do the following steps.**
+
+Then ssh to your car and bring up everything on your car
+
+.. code:: bash
+
+    roslaunch racecar_bringup racecar_bringup.launch
+
+Then go back to your own computer and open a new terminal. Run the mapping launch file to start mapping
 
 .. code:: bash
 
     roslaunch racecar_slam racecar_laser_only_cartographer.launch
 
-You may see something like this
+You should be able to see something like this
 
 .. image:: pics/slam.png
    :width: 1200
