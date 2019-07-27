@@ -21,6 +21,7 @@ Welcome to TechX 2019 Robotics Documentation!
 
     car/remotecontrol
     car/remotesquare
+    car/setup_cartographer
     car/mapping
     car/rviz_MIT_racecar
 
