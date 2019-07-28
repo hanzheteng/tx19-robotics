@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="turtlesim" name="turtle" type="turtlesim_node"/>
+    <node pkg="tx19-robotics" name="talker" type="talker.py" output="screen"/>
+
+</launch>
