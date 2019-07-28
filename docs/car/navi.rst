@@ -22,6 +22,19 @@ find the line of baseSpeed and change it into
 
     <param name="baseSpeed" value="1600"/> <!-- pwm for motor constant speed, 1480: stop, 1440: ~0.5m/s, 1430: ~1.5m/s --> 
 
+Change the Navigation Launch file
+
+.. code:: bash
+
+    roscd racecar_navigation/launch/
+    gedit racecar_amcl_nav.launch
+
+Find the line of map selection and change it into
+
+.. code:: xml
+
+    <arg name="map_file" default="$(find racecar_slam)/maps/first_floor.yaml" />
+
 start the Navigation program
 
 .. code:: bash
